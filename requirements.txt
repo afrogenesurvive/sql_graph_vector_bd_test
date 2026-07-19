@@ -1,0 +1,20 @@
+# SQL → Neo4j GraphRAG Pipeline
+
+# Neo4j
+neo4j>=5.0
+neo4j-graphrag>=1.0
+
+# Embeddings — OpenAI
+openai>=1.0
+
+# Embeddings — Local (all-MiniLM-L6-v2)
+sentence-transformers>=2.2.0
+torch>=2.0.0
+
+# MySQL
+pymysql>=1.0.0
+cryptography>=41.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+pandas>=2.0.0
